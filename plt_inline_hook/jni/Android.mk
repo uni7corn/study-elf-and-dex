@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := hook
-LOCAL_SRC_FILES := inlHook.c inline.s
+LOCAL_SRC_FILES := inlHook1.c inline1.s
 include $(BUILD_SHARED_LIBRARY)
 
 # include $(CLEAR_VARS)
